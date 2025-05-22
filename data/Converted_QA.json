@@ -1,0 +1,946 @@
+[
+  {
+    "input": "Hi",
+    "output": "VFX xin chào !"
+  },
+  {
+    "input": "Xin chào",
+    "output": "VFX xin chào !"
+  },
+  {
+    "input": "Hello",
+    "output": "VFX xin chào !"
+  },
+  {
+    "input": "MetaDAP là gì?",
+    "output": "MetaDAP là viết tắt của Meta Digital Asset Platform, một nền tảng blockchain tập trung vào việc số hóa và quản lý tài sản thực."
+  },
+  {
+    "input": "MetaDAP được thành lập khi nào?",
+    "output": "MetaDAP được thành lập vào năm 2023 tại Đà Nẵng, Việt Nam."
+  },
+  {
+    "input": "MetaDAP hoạt động trong lĩnh vực nào?",
+    "output": "MetaDAP hoạt động trong lĩnh vực blockchain và tài sản số, với trọng tâm là số hóa tài sản thực."
+  },
+  {
+    "input": "Lợi ích chính của MetaDAP là gì?",
+    "output": "MetaDAP mang lại tính thanh khoản cao, minh bạch, khả năng tiếp cận dễ dàng, và hiệu quả quản lý tài sản."
+  },
+  {
+    "input": "MetaDAP khác gì so với các nền tảng blockchain khác?",
+    "output": "MetaDAP tập trung vào số hóa tài sản thực và kết nối nhà đầu tư với các dự án khởi nghiệp."
+  },
+  {
+    "input": "Ý nghĩa của cái tên MetaDAP là gì?",
+    "output": "MetaDAP kết hợp 'Meta' (siêu việt) và 'DAP' (Digital Asset Platform) để thể hiện tầm nhìn về quản lý tài sản số vượt trội."
+  },
+  {
+    "input": "MetaDAP đóng góp gì cho kinh tế số Việt Nam?",
+    "output": "MetaDAP hỗ trợ mục tiêu kinh tế số chiếm 20% GDP Việt Nam vào năm 2025 thông qua blockchain."
+  },
+  {
+    "input": "MetaDAP hướng tới đối tượng khách hàng nào?",
+    "output": "MetaDAP phục vụ nhà đầu tư, doanh nghiệp khởi nghiệp, và tổ chức tài chính."
+  },
+  {
+    "input": "MetaDAP có mục tiêu dài hạn gì?",
+    "output": "MetaDAP hướng tới trở thành nền tảng quản lý tài sản số hàng đầu Đông Nam Á vào năm 2030."
+  },
+  {
+    "input": "Làm thế nào để tham gia MetaDAP?",
+    "output": "Người dùng có thể đăng ký tài khoản trên trang web metadap.io và xác thực danh tính qua eKYC."
+  },
+  {
+    "input": "MetaDAP có phải là dự án mã nguồn mở không?",
+    "output": "MetaDAP không phải mã nguồn mở, nhưng cung cấp API cho các nhà phát triển tích hợp."
+  },
+  {
+    "input": "MetaDAP ra đời trong bối cảnh nào?",
+    "output": "MetaDAP ra đời trong giai đoạn bùng nổ blockchain và nhu cầu số hóa tài sản tại Việt Nam."
+  },
+  {
+    "input": "MetaDAP có kế hoạch mở rộng quốc tế không?",
+    "output": "MetaDAP đặt mục tiêu mở rộng ra thị trường Đông Nam Á trong vòng 5 năm tới."
+  },
+  {
+    "input": "MetaDAP có hỗ trợ ngôn ngữ nào?",
+    "output": "MetaDAP hỗ trợ tiếng Việt, tiếng Anh, và dự kiến thêm tiếng Nhật vào năm 2025."
+  },
+  {
+    "input": "MetaDAP có liên quan đến metaverse không?",
+    "output": "MetaDAP hiện tập trung vào tài sản số, nhưng có thể mở rộng sang metaverse trong tương lai."
+  },
+  {
+    "input": "Tầm nhìn của MetaDAP là gì?",
+    "output": "MetaDAP hướng tới xây dựng hệ sinh thái tài sản số minh bạch và bền vững."
+  },
+  {
+    "input": "MetaDAP có hỗ trợ kinh tế tuần hoàn không?",
+    "output": "MetaDAP thúc đẩy kinh tế tuần hoàn thông qua việc số hóa tài sản tái sử dụng."
+  },
+  {
+    "input": "MetaDAP đã đạt được thành tựu gì từ khi thành lập?",
+    "output": "MetaDAP đã triển khai thành công nhiều dự án số hóa tài sản tại Việt Nam."
+  },
+  {
+    "input": "MetaDAP có nhận được giải thưởng nào không?",
+    "output": "MetaDAP chưa công bố giải thưởng, nhưng được đánh giá cao trong cộng đồng blockchain Việt Nam."
+  },
+  {
+    "input": "MetaDAP có kế hoạch IPO không?",
+    "output": "MetaDAP chưa công bố kế hoạch IPO, nhưng không loại trừ khả năng trong tương lai."
+  },
+  {
+    "input": "MetaDAP có hỗ trợ doanh nghiệp nhỏ không?",
+    "output": "MetaDAP cung cấp giải pháp số hóa giá rẻ cho doanh nghiệp nhỏ và vừa."
+  },
+  {
+    "input": "MetaDAP có liên kết với chính phủ không?",
+    "output": "MetaDAP đang tìm cách hợp tác với chính phủ để thúc đẩy kinh tế số."
+  },
+  {
+    "input": "MetaDAP có kế hoạch phát hành token riêng không?",
+    "output": "MetaDAP đang xem xét phát hành token để hỗ trợ giao dịch trong hệ sinh thái."
+  },
+  {
+    "input": "MetaDAP có hỗ trợ tài chính cá nhân không?",
+    "output": "MetaDAP cung cấp công cụ quản lý tài sản tài chính số hóa cho cá nhân."
+  },
+  {
+    "input": "MetaDAP có phù hợp với nhà đầu tư mới không?",
+    "output": "MetaDAP thiết kế giao diện thân thiện, dễ sử dụng cho cả nhà đầu tư mới."
+  },
+  {
+    "input": "MetaDAP giải quyết vấn đề gì trong tài chính truyền thống?",
+    "output": "MetaDAP giảm chi phí trung gian và tăng tính minh bạch trong giao dịch tài sản."
+  },
+  {
+    "input": "MetaDAP có kế hoạch ứng dụng vào giáo dục không?",
+    "output": "MetaDAP hợp tác với các trường đại học để số hóa chứng chỉ học tập."
+  },
+  {
+    "input": "MetaDAP có hỗ trợ quản lý tài sản trí tuệ không?",
+    "output": "MetaDAP cho phép mã hóa và quản lý tài sản trí tuệ như bản quyền hoặc sáng chế."
+  },
+  {
+    "input": "MetaDAP có liên quan đến tiền mã hóa không?",
+    "output": "MetaDAP hỗ trợ giao dịch tài sản số nhưng chưa phải là sàn tiền mã hóa."
+  },
+  {
+    "input": "MetaDAP có kế hoạch mở rộng sang lĩnh vực nào?",
+    "output": "MetaDAP dự kiến mở rộng sang y tế và giáo dục trong tương lai."
+  },
+  {
+    "input": "MetaDAP có hỗ trợ truy xuất nguồn gốc không?",
+    "output": "MetaDAP cung cấp tính năng traceability cho các tài sản như nông sản."
+  },
+  {
+    "input": "MetaDAP có phải là công ty khởi nghiệp không?",
+    "output": "MetaDAP là một startup blockchain thành lập năm 2023 tại Việt Nam."
+  },
+  {
+    "input": "MetaDAP có hỗ trợ cộng đồng khởi nghiệp không?",
+    "output": "MetaDAP kết nối nhà đầu tư với các dự án khởi nghiệp sáng tạo."
+  },
+  {
+    "input": "MetaDAP có kế hoạch hợp tác với ngân hàng không?",
+    "output": "MetaDAP đang đàm phán với các ngân hàng để tích hợp giải pháp blockchain."
+  },
+  {
+    "input": "MetaDAP có hỗ trợ giao dịch xuyên biên giới không?",
+    "output": "MetaDAP đang phát triển tính năng giao dịch quốc tế dựa trên blockchain."
+  },
+  {
+    "input": "MetaDAP có kế hoạch mở rộng sang châu Âu không?",
+    "output": "MetaDAP ưu tiên Đông Nam Á trước khi mở rộng sang châu Âu."
+  },
+  {
+    "input": "MetaDAP có hỗ trợ tài sản phi tài chính không?",
+    "output": "MetaDAP hỗ trợ số hóa các tài sản phi tài chính như nghệ thuật hoặc hàng hóa."
+  },
+  {
+    "input": "MetaDAP có liên quan đến DeFi không?",
+    "output": "MetaDAP có một số yếu tố giống DeFi nhưng tập trung vào tài sản thực."
+  },
+  {
+    "input": "MetaDAP có hỗ trợ quản lý danh mục đầu tư không?",
+    "output": "MetaDAP cung cấp công cụ để người dùng theo dõi và quản lý danh mục tài sản."
+  },
+  {
+    "input": "MetaDAP có kế hoạch tích hợp AI không?",
+    "output": "MetaDAP đã tích hợp AI để phân tích dữ liệu và tối ưu hóa giao dịch."
+  },
+  {
+    "input": "CEO của MetaDAP là ai?",
+    "output": "CEO của MetaDAP là ông Nguyễn Văn A, người có hơn 10 năm kinh nghiệm trong lĩnh vực công nghệ tài chính."
+  },
+  {
+    "input": "MetaDAP có bao nhiêu nhân viên hiện tại?",
+    "output": "MetaDAP hiện có từ 11 đến 50 nhân viên, tập trung vào blockchain doanh nghiệp."
+  },
+  {
+    "input": "MetaDAP có kế hoạch tuyển dụng không?",
+    "output": "MetaDAP đang tuyển dụng các vị trí như Senior FullStack Engineer tại Đà Nẵng."
+  },
+  {
+    "input": "Đội ngũ sáng lập MetaDAP gồm những ai?",
+    "output": "Đội ngũ sáng lập MetaDAP bao gồm các chuyên gia blockchain và tài chính tại Việt Nam."
+  },
+  {
+    "input": "MetaDAP có nhân viên quốc tế không?",
+    "output": "MetaDAP hiện chủ yếu tuyển dụng tại Việt Nam nhưng mở cửa cho nhân tài quốc tế."
+  },
+  {
+    "input": "MetaDAP có đội ngũ phát triển blockchain không?",
+    "output": "MetaDAP có đội ngũ kỹ sư blockchain chuyên xây dựng hợp đồng thông minh."
+  },
+  {
+    "input": "MetaDAP có chuyên gia AI không?",
+    "output": "MetaDAP có đội ngũ chuyên gia AI hỗ trợ phân tích dữ liệu tài sản."
+  },
+  {
+    "input": "MetaDAP có chính sách đào tạo nhân viên không?",
+    "output": "MetaDAP tổ chức các khóa học nội bộ về blockchain và tài sản số."
+  },
+  {
+    "input": "MetaDAP có tuyển thực tập sinh không?",
+    "output": "MetaDAP chấp nhận thực tập sinh từ các trường đại học như Đại học Đà Nẵng."
+  },
+  {
+    "input": "Nhân viên MetaDAP làm việc ở đâu?",
+    "output": "Nhân viên MetaDAP chủ yếu làm việc tại trụ sở ở Đà Nẵng."
+  },
+  {
+    "input": "MetaDAP có đội ngũ pháp lý không?",
+    "output": "MetaDAP có chuyên gia pháp lý để đảm bảo tuân thủ quy định blockchain."
+  },
+  {
+    "input": "MetaDAP có kỹ sư FullStack không?",
+    "output": "MetaDAP đang tuyển dụng và đã có kỹ sư FullStack trong đội ngũ."
+  },
+  {
+    "input": "MetaDAP có nhân viên hỗ trợ khách hàng không?",
+    "output": "MetaDAP có đội ngũ hỗ trợ khách hàng qua email và ứng dụng."
+  },
+  {
+    "input": "MetaDAP có đội ngũ marketing không?",
+    "output": "MetaDAP có nhóm marketing để quảng bá nền tảng tại Việt Nam và quốc tế."
+  },
+  {
+    "input": "MetaDAP có chính sách làm việc từ xa không?",
+    "output": "MetaDAP cho phép làm việc từ xa đối với một số vị trí kỹ thuật."
+  },
+  {
+    "input": "MetaDAP có đội ngũ nghiên cứu không?",
+    "output": "MetaDAP có nhóm nghiên cứu blockchain hợp tác với Đại học Đà Nẵng."
+  },
+  {
+    "input": "MetaDAP có nhân viên từ ngành tài chính không?",
+    "output": "MetaDAP tuyển dụng chuyên gia từ ngành tài chính để phát triển sản phẩm."
+  },
+  {
+    "input": "MetaDAP có kế hoạch mở rộng đội ngũ không?",
+    "output": "MetaDAP dự kiến tăng đội ngũ lên 100 nhân viên vào năm 2026."
+  },
+  {
+    "input": "MetaDAP có đội ngũ thiết kế UI/UX không?",
+    "output": "MetaDAP có nhóm thiết kế UI/UX để phát triển giao diện người dùng."
+  },
+  {
+    "input": "MetaDAP có nhân viên làm việc toàn thời gian không?",
+    "output": "Hầu hết nhân viên MetaDAP làm việc toàn thời gian tại Đà Nẵng."
+  },
+  {
+    "input": "MetaDAP hỗ trợ những loại tài sản nào?",
+    "output": "MetaDAP hỗ trợ mã hóa bất động sản, hàng hóa, tài sản tài chính và trí tuệ."
+  },
+  {
+    "input": "MetaDAP có ứng dụng di động không?",
+    "output": "MetaDAP đang phát triển ứng dụng di động, dự kiến ra mắt cuối năm 2025."
+  },
+  {
+    "input": "MetaDAP hỗ trợ NFT ra sao?",
+    "output": "MetaDAP cho phép tạo và giao dịch NFT đại diện cho tài sản thực."
+  },
+  {
+    "input": "MetaDAP có hỗ trợ crowdfunding không?",
+    "output": "MetaDAP cung cấp nền tảng crowdfunding dựa trên blockchain để huy động vốn."
+  },
+  {
+    "input": "MetaDAP có hỗ trợ giao dịch trên Marketplace không?",
+    "output": "MetaDAP cung cấp Marketplace để mua, bán và trao đổi tài sản số hóa."
+  },
+  {
+    "input": "MetaDAP giúp giảm chi phí giao dịch như thế nào?",
+    "output": "MetaDAP loại bỏ trung gian và tối ưu hóa quy trình giao dịch."
+  },
+  {
+    "input": "MetaDAP ứng dụng blockchain trong nông nghiệp ra sao?",
+    "output": "MetaDAP số hóa tài sản nông nghiệp và cung cấp truy xuất nguồn gốc."
+  },
+  {
+    "input": "MetaDAP có hỗ trợ tokenization cho bất động sản không?",
+    "output": "MetaDAP mã hóa bất động sản thành token để giao dịch dễ dàng."
+  },
+  {
+    "input": "MetaDAP có cung cấp API cho nhà phát triển không?",
+    "output": "MetaDAP đang phát triển API để tích hợp với các ứng dụng DApp."
+  },
+  {
+    "input": "MetaDAP có hỗ trợ tài chính cá nhân không?",
+    "output": "MetaDAP cung cấp công cụ quản lý tài sản tài chính số hóa."
+  },
+  {
+    "input": "MetaDAP có tích hợp ví điện tử không?",
+    "output": "MetaDAP đang phát triển ví điện tử để quản lý tài sản số."
+  },
+  {
+    "input": "MetaDAP có hỗ trợ doanh nghiệp nhỏ không?",
+    "output": "MetaDAP cung cấp giải pháp số hóa giá rẻ cho doanh nghiệp nhỏ."
+  },
+  {
+    "input": "MetaDAP có hỗ trợ truy xuất nguồn gốc không?",
+    "output": "MetaDAP cung cấp tính năng traceability cho nông sản và hàng hóa."
+  },
+  {
+    "input": "MetaDAP có hỗ trợ quản lý tài sản trí tuệ không?",
+    "output": "MetaDAP cho phép mã hóa và quản lý tài sản trí tuệ."
+  },
+  {
+    "input": "MetaDAP có cung cấp dịch vụ tư vấn không?",
+    "output": "MetaDAP tư vấn về số hóa tài sản và ứng dụng blockchain."
+  },
+  {
+    "input": "MetaDAP có hỗ trợ giao dịch đa chuỗi không?",
+    "output": "MetaDAP đang phát triển khả năng giao dịch multichain."
+  },
+  {
+    "input": "MetaDAP có hỗ trợ quản lý danh mục đầu tư không?",
+    "output": "MetaDAP cung cấp công cụ theo dõi và quản lý danh mục tài sản."
+  },
+  {
+    "input": "MetaDAP có hỗ trợ giao dịch xuyên biên giới không?",
+    "output": "MetaDAP đang phát triển giao dịch quốc tế dựa trên blockchain."
+  },
+  {
+    "input": "MetaDAP có hỗ trợ tài sản phi tài chính không?",
+    "output": "MetaDAP số hóa các tài sản phi tài chính như nghệ thuật."
+  },
+  {
+    "input": "MetaDAP có cung cấp nền tảng trao đổi không?",
+    "output": "MetaDAP có hệ thống exchange để giao dịch tài sản số."
+  },
+  {
+    "input": "MetaDAP có hỗ trợ quản lý hợp đồng không?",
+    "output": "MetaDAP dùng hợp đồng thông minh để quản lý giao dịch."
+  },
+  {
+    "input": "MetaDAP có cung cấp giải pháp cho doanh nghiệp lớn không?",
+    "output": "MetaDAP hỗ trợ doanh nghiệp lớn với blockchain doanh nghiệp."
+  },
+  {
+    "input": "MetaDAP có hỗ trợ số hóa chứng chỉ không?",
+    "output": "MetaDAP số hóa chứng chỉ học tập và bằng cấp."
+  },
+  {
+    "input": "MetaDAP có cung cấp dịch vụ lưu trữ dữ liệu không?",
+    "output": "MetaDAP lưu trữ dữ liệu tài sản trên blockchain an toàn."
+  },
+  {
+    "input": "MetaDAP có hỗ trợ quản lý chuỗi cung ứng không?",
+    "output": "MetaDAP cung cấp giải pháp blockchain cho chuỗi cung ứng."
+  },
+  {
+    "input": "MetaDAP có hỗ trợ giao dịch P2P không?",
+    "output": "MetaDAP cho phép giao dịch ngang hàng giữa người dùng."
+  },
+  {
+    "input": "MetaDAP có cung cấp công cụ phân tích không?",
+    "output": "MetaDAP tích hợp AI để phân tích dữ liệu tài sản."
+  },
+  {
+    "input": "MetaDAP có hỗ trợ thanh toán bằng token không?",
+    "output": "MetaDAP đang xem xét tích hợp thanh toán bằng token."
+  },
+  {
+    "input": "MetaDAP có cung cấp dịch vụ bảo hiểm không?",
+    "output": "MetaDAP đang nghiên cứu tích hợp bảo hiểm tài sản số."
+  },
+  {
+    "input": "MetaDAP có hỗ trợ quản lý tài sản nghệ thuật không?",
+    "output": "MetaDAP mã hóa và quản lý tài sản nghệ thuật qua NFT."
+  },
+  {
+    "input": "MetaDAP có cung cấp giải pháp cho ngân hàng không?",
+    "output": "MetaDAP hỗ trợ ngân hàng tích hợp blockchain."
+  },
+  {
+    "input": "MetaDAP có hỗ trợ giao dịch thời gian thực không?",
+    "output": "MetaDAP cho phép giao dịch tức thời trên blockchain."
+  },
+  {
+    "input": "MetaDAP có cung cấp dịch vụ xác thực không?",
+    "output": "MetaDAP dùng blockchain để xác thực quyền sở hữu."
+  },
+  {
+    "input": "MetaDAP có hỗ trợ quản lý tài sản y tế không?",
+    "output": "MetaDAP đang phát triển giải pháp số hóa tài sản y tế."
+  },
+  {
+    "input": "MetaDAP có cung cấp công cụ báo cáo không?",
+    "output": "MetaDAP cung cấp báo cáo chi tiết về tài sản số."
+  },
+  {
+    "input": "MetaDAP có hỗ trợ quản lý tài sản công không?",
+    "output": "MetaDAP có thể số hóa tài sản công để minh bạch hóa."
+  },
+  {
+    "input": "MetaDAP có cung cấp dịch vụ đấu giá không?",
+    "output": "MetaDAP hỗ trợ đấu giá tài sản số trên Marketplace."
+  },
+  {
+    "input": "MetaDAP có hỗ trợ quản lý tài sản tái chế không?",
+    "output": "MetaDAP số hóa tài sản tái chế để hỗ trợ kinh tế tuần hoàn."
+  },
+  {
+    "input": "MetaDAP có cung cấp giải pháp cho startup không?",
+    "output": "MetaDAP hỗ trợ startup huy động vốn qua crowdfunding."
+  },
+  {
+    "input": "MetaDAP có hỗ trợ quản lý tài sản nông nghiệp không?",
+    "output": "MetaDAP số hóa tài sản nông nghiệp và hỗ trợ traceability."
+  },
+  {
+    "input": "MetaDAP có cung cấp dịch vụ chuyển nhượng không?",
+    "output": "MetaDAP cho phép chuyển nhượng tài sản số dễ dàng."
+  },
+  {
+    "input": "MetaDAP có hỗ trợ quản lý tài sản tài chính không?",
+    "output": "MetaDAP mã hóa và quản lý các tài sản tài chính."
+  },
+  {
+    "input": "MetaDAP có cung cấp giải pháp cho logistics không?",
+    "output": "MetaDAP hỗ trợ logistics qua blockchain minh bạch."
+  },
+  {
+    "input": "MetaDAP có hỗ trợ quản lý tài sản cá nhân không?",
+    "output": "MetaDAP cung cấp công cụ quản lý tài sản cá nhân."
+  },
+  {
+    "input": "MetaDAP có cung cấp dịch vụ thuê tài sản không?",
+    "output": "MetaDAP đang phát triển tính năng cho thuê tài sản số."
+  },
+  {
+    "input": "MetaDAP có hỗ trợ quản lý tài sản giáo dục không?",
+    "output": "MetaDAP số hóa tài sản giáo dục như chứng chỉ."
+  },
+  {
+    "input": "MetaDAP có cung cấp giải pháp cho tài chính xanh không?",
+    "output": "MetaDAP hỗ trợ tài chính xanh qua blockchain bền vững."
+  },
+  {
+    "input": "MetaDAP có hỗ trợ quản lý tài sản phi lợi nhuận không?",
+    "output": "MetaDAP cung cấp giải pháp cho tổ chức phi lợi nhuận."
+  },
+  {
+    "input": "MetaDAP có cung cấp dịch vụ phân tích thị trường không?",
+    "output": "MetaDAP dùng AI để phân tích xu hướng thị trường."
+  },
+  {
+    "input": "MetaDAP có hỗ trợ quản lý tài sản thể thao không?",
+    "output": "MetaDAP có thể số hóa tài sản thể thao như vé sự kiện."
+  },
+  {
+    "input": "MetaDAP sử dụng công nghệ gì?",
+    "output": "MetaDAP sử dụng blockchain Ethereum kết hợp hợp đồng thông minh."
+  },
+  {
+    "input": "Blockchain của MetaDAP có đặc điểm gì nổi bật?",
+    "output": "Blockchain của MetaDAP đảm bảo minh bạch và an toàn giao dịch."
+  },
+  {
+    "input": "MetaDAP ứng dụng AI như thế nào?",
+    "output": "MetaDAP tích hợp AI để phân tích dữ liệu và dự đoán xu hướng."
+  },
+  {
+    "input": "Tài sản số trên MetaDAP có an toàn không?",
+    "output": "Tài sản số được bảo mật bằng hợp đồng thông minh và mã hóa."
+  },
+  {
+    "input": "MetaDAP sử dụng blockchain nào khác ngoài Ethereum?",
+    "output": "MetaDAP đang nghiên cứu tích hợp multichain."
+  },
+  {
+    "input": "MetaDAP có kế hoạch ứng dụng 5G không?",
+    "output": "MetaDAP nghiên cứu kết hợp 5G để tăng tốc độ giao dịch."
+  },
+  {
+    "input": "MetaDAP có bảo vệ dữ liệu người dùng như thế nào?",
+    "output": "MetaDAP dùng mã hóa cấp doanh nghiệp và tuân thủ quy định."
+  },
+  {
+    "input": "MetaDAP có hỗ trợ giao dịch đa chuỗi không?",
+    "output": "MetaDAP đang phát triển giao dịch multichain."
+  },
+  {
+    "input": "MetaDAP sử dụng hợp đồng thông minh để làm gì?",
+    "output": "Hợp đồng thông minh tự động hóa giao dịch và đảm bảo tuân thủ."
+  },
+  {
+    "input": "MetaDAP có tích hợp công nghệ đám mây không?",
+    "output": "MetaDAP dùng đám mây để lưu trữ dữ liệu bổ sung."
+  },
+  {
+    "input": "MetaDAP có sử dụng công nghệ mã hóa không?",
+    "output": "MetaDAP áp dụng mã hóa tiên tiến để bảo vệ tài sản."
+  },
+  {
+    "input": "MetaDAP có hỗ trợ giao dịch thời gian thực không?",
+    "output": "MetaDAP cho phép giao dịch tức thời trên blockchain."
+  },
+  {
+    "input": "MetaDAP có dùng công nghệ big data không?",
+    "output": "MetaDAP tích hợp big data để phân tích tài sản số."
+  },
+  {
+    "input": "MetaDAP có hỗ trợ blockchain riêng không?",
+    "output": "MetaDAP đang xem xét phát triển blockchain riêng."
+  },
+  {
+    "input": "MetaDAP có ứng dụng IoT không?",
+    "output": "MetaDAP nghiên cứu kết hợp IoT để quản lý tài sản thực."
+  },
+  {
+    "input": "MetaDAP có sử dụng công nghệ phân tích dự đoán không?",
+    "output": "MetaDAP dùng AI để dự đoán xu hướng thị trường."
+  },
+  {
+    "input": "MetaDAP có hỗ trợ xác thực danh tính không?",
+    "output": "MetaDAP dùng blockchain để xác thực danh tính người dùng."
+  },
+  {
+    "input": "MetaDAP có tích hợp công nghệ học máy không?",
+    "output": "MetaDAP áp dụng học máy để tối ưu hóa giao dịch."
+  },
+  {
+    "input": "MetaDAP có dùng công nghệ lưu trữ phi tập trung không?",
+    "output": "MetaDAP lưu trữ dữ liệu trên blockchain phi tập trung."
+  },
+  {
+    "input": "MetaDAP có hỗ trợ giao thức DeFi không?",
+    "output": "MetaDAP có một số yếu tố giống DeFi nhưng tập trung vào tài sản thực."
+  },
+  {
+    "input": "MetaDAP có sử dụng công nghệ API không?",
+    "output": "MetaDAP cung cấp API để tích hợp với các DApp."
+  },
+  {
+    "input": "MetaDAP có hỗ trợ blockchain công cộng không?",
+    "output": "MetaDAP chủ yếu dùng blockchain công cộng như Ethereum."
+  },
+  {
+    "input": "MetaDAP có ứng dụng công nghệ thực tế ảo không?",
+    "output": "MetaDAP chưa dùng VR nhưng có thể mở rộng trong tương lai."
+  },
+  {
+    "input": "MetaDAP có hỗ trợ giao dịch phi tập trung không?",
+    "output": "MetaDAP cho phép giao dịch phi tập trung trên blockchain."
+  },
+  {
+    "input": "MetaDAP có dùng công nghệ phân quyền không?",
+    "output": "MetaDAP dựa trên nguyên tắc phân quyền của blockchain."
+  },
+  {
+    "input": "MetaDAP có tích hợp công nghệ thanh toán không?",
+    "output": "MetaDAP đang phát triển tích hợp thanh toán bằng token."
+  },
+  {
+    "input": "MetaDAP có hỗ trợ blockchain doanh nghiệp không?",
+    "output": "MetaDAP tập trung vào blockchain doanh nghiệp để quản lý tài sản."
+  },
+  {
+    "input": "MetaDAP có dùng công nghệ nhận diện không?",
+    "output": "MetaDAP dùng eKYC để nhận diện và xác thực người dùng."
+  },
+  {
+    "input": "MetaDAP có hỗ trợ công nghệ theo dõi không?",
+    "output": "MetaDAP cung cấp công nghệ traceability cho tài sản."
+  },
+  {
+    "input": "MetaDAP có ứng dụng công nghệ bảo mật không?",
+    "output": "MetaDAP dùng bảo mật đa lớp để bảo vệ tài sản số."
+  },
+  {
+    "input": "MetaDAP có hỗ trợ giao dịch tự động không?",
+    "output": "MetaDAP dùng hợp đồng thông minh để tự động hóa giao dịch."
+  },
+  {
+    "input": "MetaDAP có dùng công nghệ định danh không?",
+    "output": "MetaDAP cung cấp định danh số cho tài sản trên blockchain."
+  },
+  {
+    "input": "MetaDAP có hỗ trợ blockchain lai không?",
+    "output": "MetaDAP đang nghiên cứu blockchain lai để tăng hiệu quả."
+  },
+  {
+    "input": "MetaDAP có ứng dụng công nghệ giám sát không?",
+    "output": "MetaDAP dùng blockchain để giám sát giao dịch minh bạch."
+  },
+  {
+    "input": "MetaDAP có hỗ trợ công nghệ lưu trữ đám mây không?",
+    "output": "MetaDAP kết hợp đám mây và blockchain để lưu trữ."
+  },
+  {
+    "input": "MetaDAP có dùng công nghệ mã nguồn không?",
+    "output": "MetaDAP không mã nguồn mở nhưng cung cấp API."
+  },
+  {
+    "input": "MetaDAP có hỗ trợ giao dịch an toàn không?",
+    "output": "MetaDAP đảm bảo giao dịch an toàn qua blockchain."
+  },
+  {
+    "input": "MetaDAP có ứng dụng công nghệ dự báo không?",
+    "output": "MetaDAP dùng AI để dự báo xu hướng tài sản."
+  },
+  {
+    "input": "MetaDAP có hỗ trợ công nghệ tích hợp không?",
+    "output": "MetaDAP tích hợp nhiều công nghệ như AI và blockchain."
+  },
+  {
+    "input": "MetaDAP có dùng công nghệ quản lý dữ liệu không?",
+    "output": "MetaDAP quản lý dữ liệu tài sản qua blockchain."
+  },
+  {
+    "input": "Trụ sở MetaDAP nằm ở đâu?",
+    "output": "MetaDAP có trụ sở tại Đà Nẵng, Việt Nam."
+  },
+  {
+    "input": "MetaDAP có kế hoạch mở chi nhánh không?",
+    "output": "MetaDAP dự kiến mở chi nhánh tại TP.HCM vào năm 2026."
+  },
+  {
+    "input": "MetaDAP có bao nhiêu nhân viên?",
+    "output": "MetaDAP hiện có từ 11 đến 50 nhân viên."
+  },
+  {
+    "input": "MetaDAP có kế hoạch mở rộng quốc tế không?",
+    "output": "MetaDAP đặt mục tiêu mở rộng ra Đông Nam Á trong 5 năm."
+  },
+  {
+    "input": "MetaDAP có cung cấp dịch vụ tư vấn không?",
+    "output": "MetaDAP tư vấn về số hóa tài sản và blockchain."
+  },
+  {
+    "input": "MetaDAP có kế hoạch IPO không?",
+    "output": "MetaDAP chưa công bố kế hoạch IPO."
+  },
+  {
+    "input": "MetaDAP có hỗ trợ doanh nghiệp lớn không?",
+    "output": "MetaDAP cung cấp giải pháp blockchain cho doanh nghiệp lớn."
+  },
+  {
+    "input": "MetaDAP có hợp tác với ngân hàng không?",
+    "output": "MetaDAP đang đàm phán với ngân hàng để tích hợp blockchain."
+  },
+  {
+    "input": "MetaDAP có kế hoạch tăng đội ngũ không?",
+    "output": "MetaDAP dự kiến tăng đội ngũ lên 100 nhân viên vào năm 2026."
+  },
+  {
+    "input": "MetaDAP có hỗ trợ startup không?",
+    "output": "MetaDAP hỗ trợ startup huy động vốn qua crowdfunding."
+  },
+  {
+    "input": "MetaDAP có phải là công ty khởi nghiệp không?",
+    "output": "MetaDAP là một startup blockchain thành lập năm 2023."
+  },
+  {
+    "input": "MetaDAP có văn phòng ở nước ngoài không?",
+    "output": "MetaDAP hiện chỉ có trụ sở tại Đà Nẵng, Việt Nam."
+  },
+  {
+    "input": "MetaDAP có kế hoạch mở rộng sang châu Âu không?",
+    "output": "MetaDAP ưu tiên Đông Nam Á trước khi mở rộng sang châu Âu."
+  },
+  {
+    "input": "MetaDAP có hỗ trợ doanh nghiệp nhỏ không?",
+    "output": "MetaDAP cung cấp giải pháp giá rẻ cho doanh nghiệp nhỏ."
+  },
+  {
+    "input": "MetaDAP có liên kết với chính phủ không?",
+    "output": "MetaDAP đang tìm cách hợp tác với chính phủ Việt Nam."
+  },
+  {
+    "input": "MetaDAP có kế hoạch mở rộng ngành nghề không?",
+    "output": "MetaDAP dự kiến mở rộng sang y tế và giáo dục."
+  },
+  {
+    "input": "MetaDAP có hỗ trợ tổ chức phi lợi nhuận không?",
+    "output": "MetaDAP cung cấp giải pháp cho tổ chức phi lợi nhuận."
+  },
+  {
+    "input": "MetaDAP có kế hoạch hợp tác quốc tế không?",
+    "output": "MetaDAP đang tìm kiếm đối tác quốc tế để mở rộng."
+  },
+  {
+    "input": "MetaDAP có hỗ trợ quản lý tài sản công không?",
+    "output": "MetaDAP có thể số hóa tài sản công để minh bạch hóa."
+  },
+  {
+    "input": "MetaDAP có kế hoạch niêm yết không?",
+    "output": "MetaDAP chưa có kế hoạch niêm yết cụ thể."
+  },
+  {
+    "input": "MetaDAP hợp tác với trường đại học nào?",
+    "output": "MetaDAP hợp tác với Đại học Đà Nẵng để nghiên cứu blockchain."
+  },
+  {
+    "input": "MetaDAP có liên kết với tổ chức nào không?",
+    "output": "MetaDAP hợp tác với Global Wealth Community Inc."
+  },
+  {
+    "input": "MetaDAP có liên quan đến VIDE không?",
+    "output": "MetaDAP là một phần của hệ sinh thái VIDE tại Việt Nam."
+  },
+  {
+    "input": "MetaDAP có nhận đầu tư từ cộng đồng không?",
+    "output": "MetaDAP mở cửa cho nhà đầu tư qua crowdfunding."
+  },
+  {
+    "input": "MetaDAP có hợp tác với ngân hàng không?",
+    "output": "MetaDAP đang đàm phán với các ngân hàng để tích hợp blockchain."
+  },
+  {
+    "input": "MetaDAP có hợp tác với chính phủ không?",
+    "output": "MetaDAP đang tìm cách hợp tác với chính phủ Việt Nam."
+  },
+  {
+    "input": "MetaDAP có hợp tác quốc tế không?",
+    "output": "MetaDAP đang tìm kiếm đối tác quốc tế để mở rộng."
+  },
+  {
+    "input": "MetaDAP có hợp tác với doanh nghiệp lớn không?",
+    "output": "MetaDAP làm việc với các doanh nghiệp lớn để triển khai blockchain."
+  },
+  {
+    "input": "MetaDAP có hợp tác với startup không?",
+    "output": "MetaDAP hỗ trợ startup qua nền tảng crowdfunding."
+  },
+  {
+    "input": "MetaDAP có hợp tác với tổ chức giáo dục không?",
+    "output": "MetaDAP hợp tác với Đại học Đà Nẵng để số hóa chứng chỉ."
+  },
+  {
+    "input": "MetaDAP có hợp tác với tổ chức phi lợi nhuận không?",
+    "output": "MetaDAP hỗ trợ tổ chức phi lợi nhuận qua blockchain."
+  },
+  {
+    "input": "MetaDAP có hợp tác với ngành nông nghiệp không?",
+    "output": "MetaDAP làm việc với nông nghiệp để cung cấp traceability."
+  },
+  {
+    "input": "MetaDAP có hợp tác với ngành tài chính không?",
+    "output": "MetaDAP hợp tác với tài chính để số hóa tài sản."
+  },
+  {
+    "input": "MetaDAP có hợp tác với ngành y tế không?",
+    "output": "MetaDAP đang nghiên cứu hợp tác với y tế để số hóa tài sản."
+  },
+  {
+    "input": "MetaDAP có hợp tác với cộng đồng blockchain không?",
+    "output": "MetaDAP tham gia các sự kiện blockchain để mở rộng mạng lưới."
+  },
+  {
+    "input": "MetaDAP có hợp tác với nhà phát triển không?",
+    "output": "MetaDAP cung cấp API để nhà phát triển tích hợp."
+  },
+  {
+    "input": "MetaDAP có hợp tác với tổ chức quốc tế không?",
+    "output": "MetaDAP đang tìm kiếm đối tác quốc tế như ở Nhật Bản."
+  },
+  {
+    "input": "MetaDAP có hợp tác với ngành logistics không?",
+    "output": "MetaDAP hỗ trợ logistics qua blockchain minh bạch."
+  },
+  {
+    "input": "MetaDAP có hợp tác với ngành nghệ thuật không?",
+    "output": "MetaDAP làm việc với nghệ thuật để mã hóa tài sản qua NFT."
+  },
+  {
+    "input": "MetaDAP có hợp tác với ngành thể thao không?",
+    "output": "MetaDAP có thể hợp tác với thể thao để số hóa vé sự kiện."
+  },
+  {
+    "input": "MetaDAP có tổ chức hackathon không?",
+    "output": "MetaDAP tổ chức hackathon hàng năm để tìm ý tưởng blockchain."
+  },
+  {
+    "input": "MetaDAP có tổ chức sự kiện nào không?",
+    "output": "MetaDAP tổ chức hội thảo về blockchain và tài sản số."
+  },
+  {
+    "input": "MetaDAP có tổ chức khóa học blockchain không?",
+    "output": "MetaDAP hợp tác với Đại học Đà Nẵng để tổ chức khóa học."
+  },
+  {
+    "input": "MetaDAP có hỗ trợ cộng đồng khởi nghiệp không?",
+    "output": "MetaDAP kết nối nhà đầu tư với các dự án khởi nghiệp."
+  },
+  {
+    "input": "MetaDAP có tham gia cộng đồng blockchain không?",
+    "output": "MetaDAP tham gia các sự kiện blockchain tại Việt Nam."
+  },
+  {
+    "input": "MetaDAP có hỗ trợ cộng đồng nông nghiệp không?",
+    "output": "MetaDAP cung cấp giải pháp traceability cho nông dân."
+  },
+  {
+    "input": "MetaDAP có tổ chức hội thảo không?",
+    "output": "MetaDAP tổ chức hội thảo để nâng cao nhận thức về blockchain."
+  },
+  {
+    "input": "MetaDAP có hỗ trợ sinh viên không?",
+    "output": "MetaDAP chấp nhận thực tập sinh từ các trường đại học."
+  },
+  {
+    "input": "MetaDAP có cộng đồng người dùng không?",
+    "output": "MetaDAP đang xây dựng cộng đồng người dùng trên mạng xã hội."
+  },
+  {
+    "input": "MetaDAP có tổ chức sự kiện trực tuyến không?",
+    "output": "MetaDAP tổ chức webinar về blockchain và tài sản số."
+  },
+  {
+    "input": "MetaDAP có hỗ trợ cộng đồng tài chính không?",
+    "output": "MetaDAP tổ chức sự kiện để giáo dục về tài sản số."
+  },
+  {
+    "input": "MetaDAP có tham gia hội chợ công nghệ không?",
+    "output": "MetaDAP tham gia các hội chợ công nghệ tại Việt Nam."
+  },
+  {
+    "input": "MetaDAP có hỗ trợ cộng đồng nghệ thuật không?",
+    "output": "MetaDAP giúp nghệ sĩ số hóa tác phẩm qua NFT."
+  },
+  {
+    "input": "MetaDAP có tổ chức thi lập trình không?",
+    "output": "MetaDAP tổ chức hackathon để khuyến khích lập trình viên."
+  },
+  {
+    "input": "MetaDAP có hỗ trợ cộng đồng giáo dục không?",
+    "output": "MetaDAP hợp tác với trường học để số hóa chứng chỉ."
+  },
+  {
+    "input": "MetaDAP có tổ chức sự kiện cộng đồng không?",
+    "output": "MetaDAP tổ chức các buổi gặp mặt cộng đồng blockchain."
+  },
+  {
+    "input": "MetaDAP có hỗ trợ cộng đồng phi lợi nhuận không?",
+    "output": "MetaDAP cung cấp giải pháp miễn phí cho một số tổ chức."
+  },
+  {
+    "input": "MetaDAP có tham gia diễn đàn blockchain không?",
+    "output": "MetaDAP góp mặt tại các diễn đàn blockchain quốc tế."
+  },
+  {
+    "input": "MetaDAP có hỗ trợ cộng đồng y tế không?",
+    "output": "MetaDAP đang phát triển giải pháp cho cộng đồng y tế."
+  },
+  {
+    "input": "MetaDAP có tổ chức workshop không?",
+    "output": "MetaDAP tổ chức workshop về blockchain cho doanh nghiệp."
+  },
+  {
+    "input": "MetaDAP có hỗ trợ cộng đồng thể thao không?",
+    "output": "MetaDAP có thể số hóa vé sự kiện cho cộng đồng thể thao."
+  },
+  {
+    "input": "MetaDAP có tham gia sự kiện quốc tế không?",
+    "output": "MetaDAP dự kiến tham gia sự kiện blockchain quốc tế."
+  },
+  {
+    "input": "MetaDAP có hỗ trợ cộng đồng logistics không?",
+    "output": "MetaDAP cung cấp giải pháp cho cộng đồng logistics."
+  },
+  {
+    "input": "MetaDAP có tổ chức cuộc thi ý tưởng không?",
+    "output": "MetaDAP tổ chức thi ý tưởng blockchain hàng năm."
+  },
+  {
+    "input": "MetaDAP có hỗ trợ cộng đồng tài chính xanh không?",
+    "output": "MetaDAP thúc đẩy tài chính xanh qua blockchain."
+  },
+  {
+    "input": "MetaDAP có tổ chức sự kiện giáo dục không?",
+    "output": "MetaDAP tổ chức sự kiện giáo dục về tài sản số."
+  },
+  {
+    "input": "MetaDAP có hỗ trợ cộng đồng doanh nghiệp nhỏ không?",
+    "output": "MetaDAP tổ chức sự kiện cho doanh nghiệp nhỏ."
+  },
+  {
+    "input": "MetaDAP có tham gia cộng đồng quốc tế không?",
+    "output": "MetaDAP đang xây dựng mạng lưới cộng đồng quốc tế."
+  },
+  {
+    "input": "MetaDAP có hỗ trợ cộng đồng công nghệ không?",
+    "output": "MetaDAP tổ chức sự kiện cho cộng đồng công nghệ."
+  },
+  {
+    "input": "MetaDAP có tổ chức chương trình từ thiện không?",
+    "output": "MetaDAP hỗ trợ cộng đồng qua các chương trình từ thiện."
+  },
+  {
+    "input": "bạn biết gì về VFX và metaDAP ?",
+    "output": "VFX là sàn gọi vốn Việt Nam, còn metaDAP là 1 công ty chuyên về website và blockchain!"
+  },
+  {
+    "input": "VFX là gì",
+    "output": "VFX (Viet Fundraising eXchange) là sàn gọi vốn Việt Nam, nền tảng kết nối nhà đầu tư và nhà khởi nghiệp tìm cơ hội mục tiêu tài chính phát triển quy mô toàn cầu. Nền tảng này được ra mắt vào ngày 15/07/2022, trong giai đoạn thử nghiệm đề án trung tâm hỗ trợ khởi nghiệp đổi mới sáng tạo quốc gia."
+  },
+  {
+    "input": "VFX thành lập khi nào",
+    "output": "Sàn gọi vốn Việt Nam (VFX) được ra mắt vào ngày 15/07/2022, trong giai đoạn thử nghiệm đề án trung tâm hỗ trợ khởi nghiệp đổi mới sáng tạo quốc gia, tại tầng 7, 8, 9 tòa nhà Bộ Khoa học & Công nghệ, thành phố Hồ Chí Minh."
+  },
+  {
+    "input": "VFX ở đâu",
+    "output": "VFX (Sàn gọi vốn Việt Nam) có trụ sở tại tầng 7, 8, 9 tòa nhà Bộ Khoa học & Công nghệ, thành phố Hồ Chí Minh."
+  },
+  {
+    "input": "tầm nhìn của VFX",
+    "output": "Tầm nhìn của VFX là trở thành đơn vị tiên phong trong hoạt động gọi vốn và giao dịch vốn cho khởi nghiệp, doanh nghiệp hướng tới phát triển bền vững. VFX hướng đến kiến tạo dòng vốn đầu tư bền vững hàng đầu Việt Nam và khu vực."
+  },
+  {
+    "input": "sứ mệnh của VFX",
+    "output": "Sứ mệnh của VFX là giải quyết nhu cầu tài chính cho dự án, khởi nghiệp, doanh nghiệp nhằm thúc đẩy sự phát triển hướng tới phát triển bền vững. VFX tiên phong phát triển hệ sinh thái đầu tư bền vững, đa dạng hóa và gia tăng hiệu quả các danh mục đầu tư cho nhà đầu tư cá nhân và tổ chức."
+  },
+  {
+    "input": "hình thức gọi vốn VFX",
+    "output": "VFX cung cấp 4 hình thức gọi vốn chính:\n1. Private: Chọn lọc các dự án tham gia gọi vốn phiên Private với các nhà đầu tư.\n2. Fundraising Premium: Phiên gọi vốn với các nhà đầu tư cao cấp/Quỹ Đầu Tư.\n3. Community Fundraising: Chiến dịch gọi vốn trên nền tảng Crowdfunding VFX.\n4. Fundraising eXchange: Phiên gọi vốn với nhiều nhà đầu tư cùng các startup khác."
+  },
+  {
+    "input": "lợi ích cho nhà đầu tư VFX",
+    "output": "VFX mang lại nhiều lợi ích cho nhà đầu tư:\n1. Danh mục đầu tư đa dạng hấp dẫn\n2. Thoái vốn linh hoạt\n3. Thanh khoản dễ dàng\n4. Minh bạch thông tin\n5. Khách quan trong đánh giá\n6. Cộng đồng nhà đầu tư chất lượng (Investor Forum, Investor Professional Council)"
+  },
+  {
+    "input": "công nghệ VFX",
+    "output": "VFX sử dụng nhiều công nghệ tiên tiến để hỗ trợ đầu tư:\n1. Blockchain/NFT: Tạo lập tài sản số, quản lý ví điện tử\n2. Smart Contract: Đảm bảo các giao dịch theo cam kết\n3. Fintech: Thực hiện quy trình gọi vốn, giải ngân\n4. AI: Phân tích dữ liệu, đánh giá dự án\n5. Big Data: Quản lý thông tin về dự án và nhà đầu tư\n6. Bảo mật và mã hóa: Bảo vệ thông tin cá nhân và dữ liệu giao dịch"
+  },
+  {
+    "input": "VFX AI là gì",
+    "output": "VFX AI là một phần trong hệ thống công nghệ của Sàn Gọi Vốn Việt Nam (VFX) được sử dụng để phân tích dữ liệu, đánh giá dự án, dự báo thị trường và tự động đề xuất cho nhà đầu tư, hỗ trợ trong việc phân loại và quản lý các dự án và ý tưởng."
+  },
+  {
+    "input": "làm thế nào để đầu tư vào VFX",
+    "output": "Quy trình đầu tư qua VFX gồm các bước:\n1. Đăng ký tài khoản trên nền tảng VFX\n2. Xác thực thông tin và KYC\n3. Duyệt hồ sơ bởi đội ngũ VFX\n4. Khám phá và nghiên cứu các dự án gọi vốn\n5. Quyết định đầu tư vào các dự án tiềm năng\n6. Quản lý danh mục đầu tư"
+  },
+  {
+    "input": "quy trình gọi vốn VFX",
+    "output": "Quy trình gọi vốn qua VFX cho các startup/dự án:\n1. Đăng ký dự án trên nền tảng VFX\n2. Hoàn thiện hồ sơ (thông tin dự án, kế hoạch kinh doanh, đội ngũ)\n3. Đánh giá dự án theo các tiêu chí của VFX\n4. Tư vấn và điều chỉnh trước khi gọi vốn\n5. Lựa chọn hình thức gọi vốn phù hợp và triển khai\n6. Kết nối với nhà đầu tư tiềm năng\n7. Hoàn tất hồ sơ đầu tư, ký kết hợp đồng và giải ngân"
+  },
+  {
+    "input": "liên hệ VFX",
+    "output": "Để liên hệ với VFX - Sàn Gọi Vốn Việt Nam:\n- Website: vfx.vn\n- Email: info@vfx.vn\n- Địa chỉ: Tầng 7, 8, 9 tòa nhà Bộ Khoa học & Công nghệ, TP. Hồ Chí Minh"
+  }
+]

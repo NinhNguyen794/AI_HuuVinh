@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin - Cập nhật kiến thức</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; padding: 0; background-color: #f7f9fc; color: #333; display: flex; justify-content: center; align-items: center; min-height: 100vh; }
+        .admin-container { background-color: #ffffff; padding: 30px 40px; border-radius: 12px; box-shadow: 0 8px 25px rgba(0,0,0,0.1); width: 100%; max-width: 700px; margin: 20px;}
+        h1, h2 { color: #2c3e50; text-align: center; }
+        h1 { margin-bottom: 30px; font-size: 2em; }
+        h2 { margin-top: 40px; margin-bottom: 20px; font-size: 1.5em; border-bottom: 2px solid #e0e0e0; padding-bottom: 10px;}
+        label { display: block; margin-top: 15px; font-weight: 600; color: #555; }
+        input[type="text"], textarea { width: calc(100% - 22px); padding: 12px; margin-top: 8px; border: 1px solid #d1d9e6; border-radius: 6px; font-size: 1em; transition: border-color 0.3s, box-shadow 0.3s; }
+        input[type="text"]:focus, textarea:focus { border-color: #3498db; box-shadow: 0 0 0 0.2rem rgba(52,152,219,.25); outline: none; }
+        textarea { resize: vertical; min-height: 80px; }
+        input[type="file"] { margin-top: 8px; padding: 10px; border: 1px solid #d1d9e6; border-radius: 6px; width: calc(100% - 22px); }
+        button { background-color: #3498db; color: white; padding: 12px 20px; border: none; border-radius: 6px; cursor: pointer; margin-top: 20px; font-size: 1em; transition: background-color 0.3s; display: block; width: 100%; }
+        button:hover { background-color: #2980b9; }
+        .message-area { margin-top: 20px; text-align: center; }
+        .message { padding: 12px; margin-top: 15px; border-radius: 6px; font-size: 0.95em; }
+        .success { background-color: #e8f5e9; color: #2e7d32; border: 1px solid #a5d6a7; }
+        .error { background-color: #ffebee; color: #c62828; border: 1px solid #ef9a9a; }
+        hr { border: 0; height: 1px; background-color: #e0e0e0; margin: 40px 0; }
+    </style>
+</head>
+<body>
+    <div class="admin-container">
+        <h1>Admin - Cập nhật kiến thức</h1>
+
+        <div id="messageArea" class="message-area"></div>
+
+        <section id="add-qa-section">
+            <h2>Thêm Q&A mới</h2>
+            <form id="qaForm">
+                <label for="question">Câu hỏi (Input):</label>
+                <textarea id="question" name="question" rows="3" required></textarea>
+                
+                <label for="answer">Câu trả lời (Output):</label>
+                <textarea id="answer" name="answer" rows="5" required></textarea>
+                
+                <button type="submit">Thêm Q&A</button>
+            </form>
+        </section>
+
+        <hr>
+
+        <section id="upload-file-section">
+            <h2>Tải lên tài liệu (PDF, Markdown, TXT)</h2>
+            <form id="fileUploadForm" enctype="multipart/form-data">
+                <label for="document">Chọn file:</label>
+                <input type="file" id="document" name="document" accept=".pdf,.md,.txt" required>
+                <button type="submit">Tải lên và Xử lý</button>
+            </form>
+        </section>
+    </div>
+
+    <script>
+        const messageArea = document.getElementById('messageArea');
+
+        function showMessage(message, type = 'success') {
+            messageArea.innerHTML = `<div class="message ${type}">${message}</div>`;
+            setTimeout(() => { messageArea.innerHTML = ''; }, 7000);
+        }
+
+        // Handle Q&A form submission
+        document.getElementById('qaForm').addEventListener('submit', async function(event) {
+            event.preventDefault();
+            const question = document.getElementById('question').value;
+            const answer = document.getElementById('answer').value;
+            const submitButton = this.querySelector('button[type="submit"]');
+            submitButton.disabled = true;
+            submitButton.textContent = 'Đang xử lý...';
+            
+            try {
+                const response = await fetch('/admin/add-qa', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ input: question, output: answer })
+                });
+                const result = await response.json();
+                if (response.ok) {
+                    showMessage('Q&A đã được thêm và xử lý thành công!');
+                    this.reset();
+                } else {
+                    showMessage('Lỗi: ' + (result.error || 'Không thể thêm Q&A.'), 'error');
+                }
+            } catch (error) {
+                showMessage('Lỗi kết nối hoặc lỗi server: ' + error.toString(), 'error');
+            } finally {
+                submitButton.disabled = false;
+                submitButton.textContent = 'Thêm Q&A';
+            }
+        });
+
+        // Handle File Upload form submission
+        document.getElementById('fileUploadForm').addEventListener('submit', async function(event) {
+            event.preventDefault();
+            const formData = new FormData();
+            const fileInput = document.getElementById('document');
+            const submitButton = this.querySelector('button[type="submit"]');
+            
+            if (fileInput.files.length === 0) {
+                showMessage('Vui lòng chọn một file để tải lên.', 'error');
+                return;
+            }
+            formData.append('file', fileInput.files[0]);
+            submitButton.disabled = true;
+            submitButton.textContent = 'Đang tải lên và xử lý...';
+
+            try {
+                const response = await fetch('/admin/upload-file', {
+                    method: 'POST',
+                    body: formData // No Content-Type header needed, browser sets it for FormData
+                });
+                const result = await response.json();
+                if (response.ok) {
+                    showMessage(`Tài liệu "${fileInput.files[0].name}" đã được tải lên và xử lý thành công!`);
+                    this.reset();
+                } else {
+                    showMessage('Lỗi: ' + (result.error || 'Không thể xử lý file.'), 'error');
+                }
+            } catch (error) {
+                showMessage('Lỗi kết nối hoặc lỗi server: ' + error.toString(), 'error');
+            } finally {
+                submitButton.disabled = false;
+                submitButton.textContent = 'Tải lên và Xử lý';
+            }
+        });
+    </script>
+</body>
+</html> 

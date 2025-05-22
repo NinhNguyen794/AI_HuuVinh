@@ -1,0 +1,78 @@
+[
+  {
+    "input": "What is VFX",
+    "output": "VFX (Viet Fundraising eXchange) is a Vietnamese fundraising platform that connects investors and startups seeking financial opportunities to grow on a global scale. The platform was launched on July 15, 2022, during the pilot phase of the national innovation startup support center initiative."
+  },
+  {
+    "input": "When was VFX founded",
+    "output": "The Vietnamese fundraising platform (VFX) was launched on July 15, 2022, during the pilot phase of the national innovation startup support center initiative, located on floors 7, 8, and 9 of the Ministry of Science & Technology building in Ho Chi Minh City."
+  },
+  {
+    "input": "Where is VFX",
+    "output": "VFX (Vietnamese Fundraising Platform) is headquartered on floors 7, 8, and 9 of the Ministry of Science & Technology building in Ho Chi Minh City."
+  },
+  {
+    "input": "VFX vision",
+    "output": "VFX’s vision is to become a pioneer in fundraising and capital transactions for startups and businesses aiming for sustainable development. VFX aims to build the leading sustainable investment capital flow in Vietnam and the region."
+  },
+  {
+    "input": "VFX mission",
+    "output": "VFX’s mission is to address financial needs for projects, startups, and businesses to promote development toward sustainability. VFX pioneers in developing a sustainable investment ecosystem, diversifying and increasing the effectiveness of investment portfolios for both individual and institutional investors."
+  },
+  {
+    "input": "VFX fundraising methods",
+    "output": "VFX offers 4 main fundraising methods:\n1. Private: Selective projects raise funds in Private sessions with investors.\n2. Fundraising Premium: Fundraising sessions with premium investors or investment funds.\n3. Community Fundraising: Campaigns on VFX’s crowdfunding platform.\n4. Fundraising eXchange: Sessions involving multiple investors and other startups."
+  },
+  {
+    "input": "VFX investor benefits",
+    "output": "VFX offers several benefits to investors:\n1. Diverse and attractive investment portfolio\n2. Flexible exit strategies\n3. Easy liquidity\n4. Transparent information\n5. Objective evaluation\n6. Quality investor community (Investor Forum, Investor Professional Council)"
+  },
+  {
+    "input": "VFX technology",
+    "output": "VFX utilizes advanced technologies to support investment:\n1. Blockchain/NFT: Create digital assets and manage e-wallets\n2. Smart Contracts: Ensure commitment-based transactions\n3. Fintech: Conduct fundraising and disbursement processes\n4. AI: Analyze data and evaluate projects\n5. Big Data: Manage information about projects and investors\n6. Security and encryption: Protect personal information and transaction data"
+  },
+  {
+    "input": "What is VFX AI",
+    "output": "VFX AI is a component of the technology system of the Vietnamese Fundraising Platform (VFX) used for data analysis, project evaluation, market forecasting, and automatic recommendations for investors. It supports categorizing and managing projects and ideas."
+  },
+  {
+    "input": "How to invest in VFX",
+    "output": "The investment process via VFX includes the following steps:\n1. Register an account on the VFX platform\n2. Verify information and complete KYC\n3. Get approved by the VFX team\n4. Explore and research fundraising projects\n5. Decide to invest in potential projects\n6. Manage your investment portfolio"
+  },
+  {
+    "input": "VFX fundraising process",
+    "output": "The fundraising process on VFX for startups/projects includes:\n1. Register your project on the VFX platform\n2. Complete your profile (project info, business plan, team)\n3. Project evaluation based on VFX criteria\n4. Consultation and adjustments before fundraising\n5. Choose suitable fundraising method and execute\n6. Connect with potential investors\n7. Finalize investment documents, sign contracts, and disburse funds"
+  },
+  {
+    "input": "Contact VFX",
+    "output": "To contact VFX - Vietnamese Fundraising Platform:\n- Website: vfx.vn\n- Email: info@vfx.vn\n- Address: Floors 7, 8, 9, Ministry of Science & Technology building, Ho Chi Minh City"
+  },
+  {
+    "input": "hello",
+    "output": "Hello! I'm the AI assistant of VFX (Vietnamese Fundraising Platform). I can help you learn more about our platform connecting investors and startups. What would you like to know about VFX?"
+  },
+  {
+    "input": "hi",
+    "output": "Hi there! I'm the support AI of VFX (Viet Fundraising eXchange). I can provide information about the fundraising platform, how to invest, and startup projects. How can I assist you?"
+  },
+  {
+    "input": "hello (in Vietnamese)",
+    "output": "Hi there! I'm the information assistant of VFX (Vietnamese Fundraising Platform). I can help you learn about investment participation, startup projects, or our platform technology. What are you interested in?"
+  },
+  {
+    "input": "greetings (in Vietnamese)",
+    "output": "Hello! I'm the support AI of VFX. I can help you learn about our fundraising platform, investment process, or ongoing startup projects. Would you like to know more?"
+  },
+  {
+    "input": "bye",
+    "output": "Thank you for interacting with VFX!"
+  },
+  {
+    "input": "goodbye (in Vietnamese)",
+    "output": "Thank you for interacting with VFX!"
+  },
+  {
+    "input": "good bye",
+    "output": "Thank you for interacting with VFX!"
+  }
+]
