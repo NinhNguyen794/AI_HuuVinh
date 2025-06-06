@@ -20,15 +20,15 @@ from model import generate_response
 app = FastAPI()
 
 # --- Configuration & Global Variables ---
-DATA_VECTOR_DIR = "data_vector"
+DATA_VECTOR_DIR = "data_vector/data_test"
 DATA_VECTOR_DIR_EN = "data_vector/en"
 UPLOAD_DIR = "uploaded_files"
-FAISS_PATH = os.path.join(DATA_VECTOR_DIR_EN, "data_vector.faiss")
-FAISS_PATH_EN = os.path.join(DATA_VECTOR_DIR, "data_vector.faiss")
-METADATA_PATH_EN = os.path.join(DATA_VECTOR_DIR_EN, "data_vector_metadata.pkl")
+FAISS_PATH = os.path.join(DATA_VECTOR_DIR, "data_vector.faiss")
+FAISS_PATH_EN = os.path.join(DATA_VECTOR_DIR_EN, "data_vector.faiss")
 METADATA_PATH = os.path.join(DATA_VECTOR_DIR, "data_vector_metadata.pkl")
+METADATA_PATH_EN = os.path.join(DATA_VECTOR_DIR_EN, "data_vector_metadata.pkl")
 OLLAMA_API_URL = "http://127.0.0.1:11434/api/generate"
-OLLAMA_MODEL = "deepseek-r1:1.5b"
+OLLAMA_MODEL = "gemma:7b"
 OLLAMA_PULL_URL = "http://localhost:11434/api/pull"
 DATA_PATH = "data/Converted_QA.json"  # File JSON chính để lưu Q&A
 

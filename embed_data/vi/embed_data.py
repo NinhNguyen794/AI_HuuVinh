@@ -9,8 +9,8 @@ import pickle
 os.makedirs("data_vector", exist_ok=True)
 
 # Đường dẫn đến file dữ liệu và nơi lưu vector
-DATA_PATH = "data/vi/data.json"
-VECTOR_DIR = "data_vector/vi"
+DATA_PATH = "data/data_test/biowrapsvietnam_faq.json"
+VECTOR_DIR = "data_vector/data_test"
 INDEX_PATH = os.path.join(VECTOR_DIR, "data_vector.faiss")
 METADATA_PATH = os.path.join(VECTOR_DIR, "data_vector_metadata.pkl")
 

@@ -1,0 +1,70 @@
+[
+  {
+    "input": "Xin chào",
+    "output": "dịch vụ tư vấn và hỗ trợ kỹ thuật liên quan đến Biowrap."
+  },
+  {
+    "input": "Biowrap là gì?",
+    "output": "BioWrap là sản phẩm màng bọc sinh học thân thiện với môi trường, có khả năng phân hủy nhanh, thay thế màng PE truyền thống."
+  },
+  {
+    "input": "Biowrap có thể phân hủy trong bao lâu?",
+    "output": "BioWrap có thể phân hủy hoàn toàn trong vòng 6 tháng đến 1 năm tùy điều kiện môi trường."
+  },
+  {
+    "input": "Lợi ích của Biowrap so với màng PE truyền thống là gì?",
+    "output": "BioWrap giúp giảm ô nhiễm môi trường, an toàn cho sức khỏe người sử dụng, và phù hợp với xu hướng phát triển bền vững."
+  },
+  {
+    "input": "Biowrap sử dụng trong những ngành nào?",
+    "output": "Bio Wrap được ứng dụng rộng rãi trong ngành nông nghiệp, bao bì thực phẩm, y tế và nhiều lĩnh vực khác."
+  },
+  {
+    "input": "Sản phẩm Biowrap có an toàn cho người sử dụng không?",
+    "output": "Sản phẩm Bio Wrap được kiểm nghiệm và chứng nhận an toàn, không gây hại cho sức khỏe người dùng."
+  },
+  {
+    "input": "Công ty Biowraps Vietnam có trụ sở ở đâu?",
+    "output": "Biowraps Vietnam có trụ sở chính tại TP. Hồ Chí Minh, Việt Nam."
+  },
+  {
+    "input": "Các loại sản phẩm mà Biowraps Vietnam cung cấp là gì?",
+    "output": "Biowraps Vietnam cung cấp các loại màng bọc sinh học phân hủy và thân thiện với môi trường, bao gồm màng bọc thực phẩm và màng bọc nông nghiệp."
+  },
+  {
+    "input": "đặt hàng",
+    "output": "Bạn có thể liên hệ trực tiếp qua website hoặc số điện thoại để được tư vấn và đặt hàng."
+  },
+  {
+    "input": "Làm thế nào để đặt hàng sản phẩm của Biowraps Vietnam?",
+    "output": "Bạn có thể liên hệ trực tiếp qua website hoặc số điện thoại để được tư vấn và đặt hàng."
+  },
+  {
+    "input": "Biowraps Vietnam có dịch vụ hỗ trợ khách hàng không?",
+    "output": "Có, công ty cung cấp dịch vụ tư vấn và hỗ trợ kỹ thuật liên quan đến sản phẩm."
+  },
+  {
+    "input": "Biowraps Vietnam có các chứng nhận nào về sản phẩm?",
+    "output": "Sản phẩm của Biowraps Vietnam được chứng nhận đạt các tiêu chuẩn an toàn và thân thiện môi trường."
+  },
+  {
+    "input": "Biowrap có giúp bảo vệ môi trường không?",
+    "output": "Có, Bio Wrap được làm từ vật liệu phân hủy sinh học giúp giảm thiểu ô nhiễm nhựa ra môi trường."
+  },
+  {
+    "input": "Thời gian giao hàng sản phẩm Bio Wrap là bao lâu?",
+    "output": "Thời gian giao hàng tùy theo địa điểm và số lượng, thường từ 3 đến 7 ngày làm việc."
+  },
+  {
+    "input": "Có thể tái sử dụng màng Bio Wrap không?",
+    "output": "Màng Biowrap thiết kế để sử dụng một lần và phân hủy sau đó, không khuyến khích tái sử dụng."
+  },
+  {
+    "input": "Biowrap có phù hợp cho thực phẩm tươi sống không?",
+    "output": "Có, Biowrap an toàn cho bao bọc thực phẩm tươi sống và đảm bảo vệ sinh."
+  },
+  {
+    "input": "Làm sao để bảo quản sản phẩm Biowrap đúng cách?",
+    "output": "Nên để nơi khô ráo, tránh ánh nắng trực tiếp để đảm bảo chất lượng màng bọc."
+  }
+]
